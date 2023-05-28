@@ -1,21 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GUMAC</title>
+    <link rel="stylesheet" href="assets/js/slide-show-header.js">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide-show-header.css">
 </head>
+
 <body>
-    <header>
-        <h1>header </h1>
-        helo thầy
-    </header>
-    <main>
-        heloooooooooooo
-    </main>
-    <footer>
-        @Bản quyền thuộc công ty cổ phẩn 1 thành viên 
-    </footer>
+    <div class="wrapper">
+        <header id="header">
+            <div class="header-top">
+                <div class="header-top-left">
+                    <a href=""><i class="fa-solid fa-phone"></i> Hotline đặt hàng 18006013</a>
+                </div>
+                <div class="header-top-right">
+                    <div class="header-top-right-element">
+                        <a href="">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            Tra cứu tình trạng đơn hàng
+                        </a>
+                    </div>
+                    <div class="header-top-right-element">
+                        <a href="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Hệ thống Showroom
+                        </a>
+                    </div>
+                    <div class="header-top-right-element">
+                        <input type="text" placeholder="Tìm Kiếm Sản Phẩm">
+                        <button type="submit">
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- end header-top -->
+            <div class="header-bottom">
+
+                <div class="logo-header-bottom">
+                    <a href="">
+                        <img src="images/logo0.png" alt="">
+                    </a>
+                </div>
+                <!-- end header-logo -->
+                <div class="main-header-bottom">
+                    <nav>
+                        <ul class="main-menu">
+                            <li><a href="">Hàng Mới Về</a></li>
+                            <li><a href="">Thời Trang</a></li>
+                            <li><a href="" style="color:red;font-weight: bold;">Sale off</a></li>
+                            <li><a href="">Bộ Sưu Tập</a></li>
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Về GUMAC</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- end main-header-bottom -->
+                <div class="action-header-bottom">
+                    <div class="action-header-element">
+                        <button class="header-bottom-icon">
+                            <a href=""><i class="fa-solid fa-user"></i></a>
+                        </button>
+                    </div>
+                    <div class="action-header-element">
+                        <button class="header-bottom-icon">
+                            <a href=""><i class="fa-regular fa-heart"></i></i></a>
+                        </button>
+                    </div>
+                    <div class="action-header-element">
+                        <button class="header-bottom-icon">
+                            <a href=""><i class="fa-solid fa-bag-shopping"></i></i></a>
+                        </button>
+                    </div>
+                </div>
+                <!-- end action-header-bottom -->
+            </div>
+            <div id="slide-show">
+                <img  id="hinh" src="images/bn0.jpg" alt="">
+                 <i class="fa fa-chevron-circle-left" onclick="prev()"></i>
+                 <i class="fa fa-chevron-circle-right" onclick="next()"></i>
+             </div>
+        </header>
+        <!-- end HEADER -->
+        <main>
+            <section class="section-poup-ads">
+                <img class="t-section-poup-ads" src="images/popup-1.jpg" alt="">
+                <img class="t-section-poup-ads" src="images/popup-2.jpg" alt="">
+                <img class="t-section-poup-ads" src="images/popup-3.jpg" alt="">
+            </section>
+                <!-- end poup-ads -->
+                <section class="section-newsale">
+                    <a href="">
+                        <img src="images/newsale.png" alt="">
+                        </a>
+                </section>
+            <!-- end newsale -->
+        <section class="cetegory-product">
+            <a href="">
+                <img  class="padding-32-15 tcetegory-product" src="images/cetegory1.png" alt="">
+            </a>
+            <a href="">
+                <img class="padding-0-15 tcetegory-product" src="images/cetegory2.png" alt="">
+            </a>
+            <a href="">
+                <img class="padding-32-15 tcetegory-product" src="images/cetegory3.png" alt="">
+            </a>
+            <a href="">
+                <img class="padding-0-15 tcetegory-product" src="images/cetegory4.png" alt="">
+            </a>
+        </section>
+        </main>
+        <!-- end Main -->
+        <footer>
+
+        </footer>
+    </div>
 </body>
+<script src="https://kit.fontawesome.com/5141d42d8d.js" crossorigin="anonymous"></script>
+
 </html>
