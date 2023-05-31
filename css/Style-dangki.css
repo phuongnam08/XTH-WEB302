@@ -1,0 +1,46 @@
+.dangki{
+    margin: 5% 0 0 30%;
+    width: 600px;
+    height: 600px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 10px;
+    
+}
+
+h1{
+    color: rgb(9, 1, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px auto;
+}
+
+.dangki input{
+    width: 250px;
+    height: 7%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 15px;
+
+}
+
+.dangki button{
+    width: 250px;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: cornflowerblue;
+    color: aliceblue;
+
+}
+
+.dangki button:hover{
+    background-color: aquamarine;
+}
+
+label{
+    font-size: 20px;
+    
+}

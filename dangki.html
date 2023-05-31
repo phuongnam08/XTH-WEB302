@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Style-dangki.css">
+    <title>Đăng ký</title>
+</head>
+<body>
+    <div class="dangki">
+        <h1>Đăng kí</h1>
+        <label for=""> Nhập tài khoản: </label><input id="ten" type="text" value=" " >
+        <label for=""><br>Nhập mật khẩu: </label><input id="mk" type="password" value=" ">
+        <label for=""><br>Nhập lại mật khẩu: </label><input id="xnmk" type="password" value=" ">
+        <label for=""><br>Nhập số điện thoại:</label><input id="dt" type="phone" value=" ">
+        <button onclick="kt()">Đăng kí</button>
+        <button><a href="dangnhap.html">bạn đã có tài khoản</a></button>
+    </div>
+
+    <script>
+        function kt(){
+            var sten = document.getElementById("ten");
+            var smk = document.getElementById("mk");
+            var sxnmk = document.getElementById("xnmk");
+            var sdt = document.getElementById("dt");
+            if(sten.value == " "){
+                alert("bạn chưa nhập tên tài khoản, vui lòng điền đầy đủ thông tin")
+            }
+            if(smk.value==" "){
+                alert("bạn chưa nhập mật khẩu, vui lòng nhập mật khẩu ")
+            }else if(smk.value.length < 8){
+                alert("vui lòng nhập mật khẩu dài hơn 8 kí tự")
+            }
+            if(sxnmk.value==" "){
+                alert("bạn chưa xác nhận mật khẩu, vui lòng xác nhận mật khẩu")
+            }
+            if(sdt.value== " "){
+                alert("bạn chưa nhập số điện thoại, vui lòng điền đầy đủ thông tin")
+            }
+        }
+    </script>
+</body>
+</html>
