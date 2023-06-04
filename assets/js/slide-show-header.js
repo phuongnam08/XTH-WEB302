@@ -1,6 +1,6 @@
 var arr_hinh = [
     // "images/bn11.png",
-    "images/bn0.jpg",
+    "/images/bn0.jpg",
     "/images/bn1.jpg",
     "/images/bn2.png",
     "/images/bn3.png"
@@ -17,5 +17,5 @@ function next(){
     if (index >= arr_hinh.length) index = 0;
     document.getElementById("hinh").src=arr_hinh[index];
 }
-setInterval("next()", 5000);
+setInterval("next()", 3000);
 

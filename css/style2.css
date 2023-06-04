@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px  ;
+    text-align: center;
+    grid-template-areas:
+    'header header header header header header header header header header header header'
+        'left   left   left   left   main   main   main   main   main   main   main   main'
+        'footer footer footer footer footer footer footer footer footer footer footer footer';
+
+}
+#logo{
+    width: 100px;
+    
+}
+body>*{
+    background-color:  #d9d9d9;;
+}
+#header{
+    grid-area: header;
+    background-color:rgb(3, 3, 51);
+}
+#aside-left{
+    grid-area: left;
+  
+}
+#main{
+    grid-area: main;
+    
+}
+#footer{
+    grid-area: footer;
+}
+#header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+#search-box input{
+    padding: 10px 15px  ;
+    outline: 0;
+    border-radius: 5px;
+    border: 0;
+    flex: 1;
+}
+#search-box{
+    width: 50%;
+    display: flex;
+    
+}
+#search-box button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 5px ;
+    margin-left: 10px;
+}
+#header-action{
+    width: 300px;
+}
+#header-action ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ #header-action li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 10px; */
+    color: white;
+}
+#header-action i{
+    font-size: 25px ;
+}
+#header-action li a:hover{
+    color: red;
+}
+.header-bottom{
+    display: flex;
+}
+.main-menu li a{
+    color: white;
+    text-decoration: none;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
