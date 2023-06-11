@@ -1,0 +1,124 @@
+#content{
+    background: #f6eee1;
+}
+.p-login_content {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.p-login_content>.form {
+    width: 462px;
+    height: 710px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.content-t {
+    padding: 36px 32px;
+}
+
+.title-locgin>h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.title-login {
+    margin-bottom: 30px;
+}
+
+.title-login a {
+    text-decoration: none;
+    color: rgb(29, 159, 199);
+}
+
+.group {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.group .inputtext {
+    padding-left: 15px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    width: 95%;
+    height: 40px;
+}
+
+
+.button {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button button {
+    width: 180px;
+    /* padding: 10px 20px; */
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background: black;
+    border-radius: 20px;
+}
+
+.button>a {
+    color: #4db2ec;
+    font-weight: 500;
+    padding-top: 15px;
+   
+}
+
+.button button:hover,
+.button button:focus {
+    background-color: #4db2ec;
+    outline: 2px solid #4db2ec;
+    /* outline-offset: 2px; */
+    
+}
+
+.button button:is(:hover, :focus) {
+    background-color: #4db2ec;
+    outline: 2px solid #4db2ec;
+    /* outline-offset: 2px; */
+}
+
+.them {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.icons{
+    width: 422px;
+    height: 36px;
+    margin-top: 25px;
+}
+.login_loginForm_authCol{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 75px;
+}
+.a-image-contain{
+    display: flex;
+    align-items: center;
+}
+.a-image-contain a{
+    padding-right: 10px;
+}
+.bg-img img{
+    height: 710px;
+    object-fit: cover;
+}

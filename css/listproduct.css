@@ -1,0 +1,143 @@
+#container{
+    display: flex;
+    padding: 35px 100px;
+    gap: 20px;
+}
+#aside-left{
+    flex: 1;
+}
+#main{
+    flex: 3;
+
+}
+#main img{
+    width: 100%;
+}
+#nav-category{
+    
+    
+    margin-top: -10px;
+}
+#nav-category button {
+    color: #00aeef;
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    padding: 25px 0;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    background-color: #FFF;
+    font-size: 24px;
+}
+#nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-color: #0f0f0fe0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+#nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+}
+#nav-menu a{
+    color: #FFF;
+    text-decoration: none;
+}
+#nav-menu a:hover{
+    color:#FF5722
+}
+#aside-left{
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#category-list{
+    margin-top: -10px;
+    border-radius: 0 0 5px 5px;
+    transition: all ease 0.5s;
+    max-height: 500px;
+}
+#category-list.hide{
+    /* display: none; */
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#category-list ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#category-list a {
+    text-decoration: none;
+    padding: 20px 0;
+    display: block;
+    color: #00aeef;
+    border-bottom: 1px solid #252425;
+    font-size: 24px;
+}
+#category-list a:hover{
+    color:#FF5722;
+}
+#category-list li:last-child a{
+    border-bottom: 0;
+}
+/* ===========Main=========== */
+
+.col{
+    flex: 1;
+}
+.product-img {
+    width: 266px;
+    height: 390px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+
+.list-product {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.product-item .product-name {
+    text-decoration: none;
+    color: #252425;
+    font-family: Neue Kabel;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price span {
+    color: red;
+}
+
+.price del {
+    color: #d9d9d9;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="header-top">
+                <div class="header-top-left">
+                    <a href=""><i class="fa-solid fa-phone"></i> Hotline đặt hàng 18006013</a>
+                </div>
+                <div class="header-top-right">
+                    <div class="header-top-right-element">
+                        <a href="">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            Tra cứu tình trạng đơn hàng
+                        </a>
+                    </div>
+                    <div class="header-top-right-element">
+                        <a href="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Hệ thống Showroom
+                        </a>
+                    </div>
+                    <div class="header-top-right-element">
+                        <input type="text" placeholder="Tìm Kiếm Sản Phẩm">
+                        <button type="submit">
+                            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- end header-top -->
+            <div class="header-bottom">
+
+                <div class="logo-header-bottom">
+                    <a href="index.html">
+                        <img src="images/logo0.png" alt="">
+                    </a>
+                </div>
+                <!-- end header-logo -->
+                <div class="main-header-bottom">
+                    <nav>
+                        <ul class="main-menu">
+                            <li><a class="link" href="listproduct.html">Hàng Mới Về</a></li>
+                            <li><a class="link" href="">Thời Trang</a></li>
+                            <li><a class="link" href="" style="color:red;font-weight: bold;">Sale off</a></li>
+                            <li><a class="link" href="">Bộ Sưu Tập</a></li>
+                            <li><a class="link" href="new.html">Tin tức</a></li>
+                            <li><a class="link" href="">Về GUMAC</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- end main-header-bottom -->
+                <div class="action-header-bottom">
+                    <div class="action-header-element">
+                        <button class="header-bottom-icon">
+                            <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                        </button>
+                    </div>
+                    <div class="action-header-element">
+                        <button class="header-bottom-icon">
+                            <a href=""><i class="fa-regular fa-heart"></i></i></a>
+                        </button>
+                    </div>
+                    <div class="action-header-element">
+                        <button class="header-bottom-icon">
+                            <a href=""><i class="fa-solid fa-bag-shopping"></i></i></a>
+                        </button>
+                    </div>
+                </div>
+                <!-- end action-header-bottom -->
+            </div>
+
+        </header>
+        <div id="content">
+            <div class="p-login_content">
+                <div class="form" id="form">
+                    <div class="content-t">
+                        <form onsubmit="login()">
+                            <div class="title-login">
+                                <h1>Đăng Nhập</h1>
+                                <p>Trở thành thành viên <a href="./register.html">Đăng ký ngay</a></p>
+                            </div>
+                            <div class="group">
+                                <label for="">Email/Số điện thoại</label><br>
+                                <input type="text" class="inputtext" id="email"  placeholder=" ">
+                            </div>
+
+                            <div id="checkDN" style="color: red;"></div>
+
+                            <div class="group">
+                                <label for="">Mật Khẩu</label><br>
+                                <input type="password" class="inputtext" id="password"
+                                    placeholder=" ">
+
+                                <div class="eye">
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+<!-- 
+                            <div id="checkMK" style="color: red;"></div> -->
+
+                            <div class="group">
+                                <input type="checkbox">
+                                <label for="">Save me</label>
+                            </div>
+                            <div class="button">
+                                <button type="submit" id="btn-login" >Đăng Nhập</button>
+                                <a href="">Quên mật khẩu</a>
+                            </div>
+                            <div class="them">
+                                <p>Hoặc</p>
+                            </div>
+                            <div class="icons">
+                                <div class="login_loginForm_authCol">
+                                    <div class="a-image-contain">
+                                        <a href="">
+                                            <img src="images/facebook.png" alt="">
+                                        </a>
+                                        <p>Facebook</p>
+                                    </div>
+                                    <div class="a-image-contain">
+                                        <a href="">
+                                            <img src="images/google.png" alt="">
+                                        </a>
+                                        <p>Google</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="bg-img">
+                    <img src="images/bmax.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <footer id="footer">
+            <div class="container-">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="images/logo2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="content-row">
+                            <div class="description">
+                                <span>
+                                    Tự hào là thương hiệu Việt, không chỉ mang đến những sản phẩm đẹp mà còn trao gửi
+                                    những Giá trị thật - Hạnh phúc đích thực đến tận tay khách hàng.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="footer-social pdt-15">
+                            <a class="ft-sociallink" href=""><img src="images/facebook.png" alt=""></a>
+                            <a class="ft-sociallink" href=""><img src="images/instagram.png" alt=""></a>
+                            <a class="ft-sociallink" href=""><img src="images/tiktok.png" alt=""></a>
+                            <a class="ft-sociallink" href=""><img src="images/youtube.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="title-footer">
+                            <p class="mg-0">truy cập nhanh</p>
+                        </div>
+                        <div class="content-footer">
+                            <div class="col-6">
+                                <ul class="footer-partlist">
+                                    <li><a href="index.html">Trang Chủ</a></li>
+                                    <li><a href="index.html">Bộ Sưu Tập</a></li>
+                                    <li><a href="index.html">Tuyển dụng</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="footer-partlist">
+                                    <li><a href="index.html">Đầm</a></li>
+                                    <li><a href="index.html">Áo sơ mi</a></li>
+                                    <li><a href="index.html">Quần</a></li>
+                                    <li><a href="index.html">Chân Váy</a></li>
+                                    <li><a href="index.html">Quần short</a></li>
+                                    <li><a href="index.html">Áo Thun</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="title-footer">
+                            <p class="mg-0">nàng hỏi -gu đáp</p>
+                        </div>
+                        <div class="row-content">
+                            <div class="col7">
+                                <ul class="footer-partlist1">
+                                    <li><a href="index.html">Hướng Dẫn Đặt Hàng Tại GUMAC</a></li>
+                                    <li><a href="index.html">Hướng dẫn chọn size váy - đầm</a></li>
+                                    <li><a href="index.html">Chính sách khách hàng thân thiết</a></li>
+                                    <li><a href="index.html">Chính sách bảo mật thông tin khách hàng</a></li>
+                                    <li><a href="index.html">Chính sách bảo hành và đổi sản phẩm</a></li>
+                                    <li><a href="index.html">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="title-footer">
+                            <p class="mg-0">Các Thức thanh toán</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><img src="images/money.png" alt=""></a>
+                            <a href=""><img src="images/visa.png" alt=""></a>
+                            <a href=""><img src="images/bank.png" alt=""></a>
+                            <a href=""><img src="images/imdb.png" alt=""></a>
+                        </div>
+                        <div class="box-ft">
+                            <div class="title-footer">
+                                <p class="mg-0">Các Thức thanh toán</p>
+                            </div>
+                            <div class="map">
+                                <iframe style="border-radius: 10px; border: 0;"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9942379551185!2d106.59816667469774!3d10.81175228933924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b94118c2d57%3A0x51905ed22e9e7599!2zMjY2IMSQLiBQaOG6oW0gxJDEg25nIEdp4bqjbmcsIELDrG5oIEjGsG5nIEhvw6AsIELDrG5oIFTDom4sIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1685857782867!5m2!1sen!2s"
+                                    width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/5141d42d8d.js" crossorigin="anonymous"></script>
+    <script src="assets/js/login.js"></script>
+</body>
+</html>

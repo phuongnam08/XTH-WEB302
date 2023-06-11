@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/slide-show-header.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
@@ -54,11 +55,11 @@
                 <div class="main-header-bottom">
                     <nav>
                         <ul class="main-menu">
-                            <li><a class="link" href="">Hàng Mới Về</a></li>
+                            <li><a class="link" href="listproduct.html">Hàng Mới Về</a></li>
                             <li><a class="link" href="">Thời Trang</a></li>
                             <li><a class="link" href="" style="color:red;font-weight: bold;">Sale off</a></li>
                             <li><a class="link" href="">Bộ Sưu Tập</a></li>
-                            <li><a class="link" href="">Tin tức</a></li>
+                            <li><a class="link" href="new.html">Tin tức</a></li>
                             <li><a class="link" href="">Về GUMAC</a></li>
                         </ul>
                     </nav>
@@ -67,7 +68,7 @@
                 <div class="action-header-bottom">
                     <div class="action-header-element">
                         <button class="header-bottom-icon">
-                            <a href=""><i class="fa-solid fa-user"></i></a>
+                            <a href="login.html"><i class="fa-solid fa-user"></i></a>
                         </button>
                     </div>
                     <div class="action-header-element">
@@ -86,83 +87,265 @@
 
         </header>
         <!-- end HEADER -->
-        <main id="wrapper">
-            <div id="slide-show">
-                <img id="hinh" src="images/bn0.jpg" alt="">
-                <i class="fa fa-chevron-circle-left" onclick="prev()"></i>
-                <i class="fa fa-chevron-circle-right" onclick="next()"></i>
-            </div>
-            <section class="section-poup-ads">
-                <img class="t-section-poup-ads" src="images/popup-1.jpg" alt="">
-                <img class="t-section-poup-ads" src="images/popup-2.jpg" alt="">
-                <img class="t-section-poup-ads" src="images/popup-3.jpg" alt="">
-            </section>
-            <!-- end poup-ads -->
-            <section class="section-newsale">
-                <a href="">
-                    <img src="images/newsale.png" alt="">
-                </a>
-            </section>
-            <!-- end newsale -->
-            <section class="cetegory-product">
-                <a href="">
-                    <img class="padding-32-15 tcetegory-product" src="images/cetegory1.png" alt="">
-                </a>
-                <a href="">
-                    <img class="padding-0-15 tcetegory-product" src="images/cetegory2.png" alt="">
-                </a>
-                <a href="">
-                    <img class="padding-32-15 tcetegory-product" src="images/cetegory3.png" alt="">
-                </a>
-                <a href="">
-                    <img class="padding-0-15 tcetegory-product" src="images/cetegory4.png" alt="">
-                </a>
-            </section>
-            <section class="home-collection-first">
-                <div class="home-collection-first-left ">
-                    <div class="product-collection ">
-                        <div class="product-collection-left">
-                            <img src="images/collection1.png" alt="">
-                        </div>
-                        <div class="product-collection-right">
-                            <h3>Đầm kiểu tay phồng</h3>
-                            <p>Áo Sơ Mi Kiểu</p>
-                            <span>245.000 đ</span>
-                            <div class="mt-btn">
-                                <a href=""><button>Mua ngay </button></a>
-                                <i style="font-size: 32px;" class="fa-regular fa-heart"></i>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!--  -->
-                    <div class="product-collection">
-                        <div class="product-collection-left">
-                            <img src="images/collection1.png" alt="">
-                        </div>
-                        <div class="product-collection-right">
-                            <h3>Đầm kiểu tay phồng</h3>
-                            <p>Áo Sơ Mi Kiểu</p>
-                            <span>245.000 đ</span>
-                            <div class="mt-btn">
-                                <a href=""><button>Mua ngay</button></a>
-                                <i style="font-size: 32px;" class="fa-regular fa-heart"></i>
-                            </div>
-                        </div>
-                    </div>
+        <main>
+            <main id="wrapper">
+                <div id="slide-show">
+                    <img id="hinh" src="images/bn0.jpg" alt="">
+                    <i class="fa fa-chevron-circle-left" onclick="prev()"></i>
+                    <i class="fa fa-chevron-circle-right" onclick="next()"></i>
                 </div>
-
-                <div class="home-collection-first-right">
-                    <div class="home-collection-first-right-wrap">
-                        <div class="home-collection-first-right-img">
-                            <img src="images/model-collection.png" alt="">
+                <section class="section-poup-ads">
+                    <img class="t-section-poup-ads" src="images/popup-1.jpg" alt="">
+                    <img class="t-section-poup-ads" src="images/popup-2.jpg" alt="">
+                    <img class="t-section-poup-ads" src="images/popup-3.jpg" alt="">
+                </section>
+                <!-- end poup-ads -->
+                <section class="section-newsale">
+                    <a href="">
+                        <img src="images/newsale.png" alt="">
+                    </a>
+                </section>
+                <!-- end newsale -->
+                <section class="cetegory-product">
+                    <a href="">
+                        <img class="padding-32-15 tcetegory-product" src="images/cetegory1.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="padding-0-15 tcetegory-product" src="images/cetegory2.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="padding-32-15 tcetegory-product" src="images/cetegory3.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="padding-0-15 tcetegory-product" src="images/cetegory4.png" alt="">
+                    </a>
+                </section>
+                <section class="home-collection-first">
+                    <div class="home-collection-first-left ">
+                        <div class="product-collection ">
+                            <div class="product-collection-left">
+                                <img src="images/collection1.png" alt="">
+                            </div>
+                            <div class="product-collection-right">
+                                <h3>Đầm kiểu tay phồng</h3>
+                                <p>Áo Sơ Mi Kiểu</p>
+                                <span>245.000 đ</span>
+                                <div class="mt-btn">
+                                    <a href=""><button>Mua ngay </button></a>
+                                    <i style="font-size: 32px;" class="fa-regular fa-heart"></i>
+                                </div>
+    
+                            </div>
                         </div>
-                        <div class="home-collection-first-right-info">
-                            <h2>DREAM LAND</h2>
-                            <p>Vùng đất mộng mơ - nơi chúng ta được khám phá sâu hơn về bản thân mình. Là sự khát khao
-                                đổi
-                                mới, hòa mình với thiên nhiên, khai phá những vùng đất xinh đẹp.</p>
+    
+                        <!--  -->
+                        <div class="product-collection">
+                            <div class="product-collection-left">
+                                <img src="images/collection1.png" alt="">
+                            </div>
+                            <div class="product-collection-right">
+                                <h3>Đầm kiểu tay phồng</h3>
+                                <p>Áo Sơ Mi Kiểu</p>
+                                <span>245.000 đ</span>
+                                <div class="mt-btn">
+                                    <a href=""><button>Mua ngay</button></a>
+                                    <i style="font-size: 32px;" class="fa-regular fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="home-collection-first-right">
+                        <div class="home-collection-first-right-wrap">
+                            <div class="home-collection-first-right-img">
+                                <img src="images/model-collection.png" alt="">
+                            </div>
+                            <div class="home-collection-first-right-info">
+                                <h2>DREAM LAND</h2>
+                                <p>Vùng đất mộng mơ - nơi chúng ta được khám phá sâu hơn về bản thân mình. Là sự khát khao
+                                    đổi
+                                    mới, hòa mình với thiên nhiên, khai phá những vùng đất xinh đẹp.</p>
+                                <div class="mt-button">
+                                    <a href="">
+                                        <button type="button" class="buttonIcon">
+                                            <div class="a-icon">
+                                                <img src="images/iconn1.png" alt="">
+                                            </div>
+                                            <div class="buttonIcon-text">
+                                                <p>XEM NGAY BỘ SƯU TẬP</p>
+                                            </div>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- list-product -->
+                <section class="home-list-product">
+    
+                    <ul class="list-product">
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-item">
+                                <img src="images/hinh1.jpg" alt="" class="product-img">
+                                <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
+                                <div class="price">
+                                    <span>699.000đ</span>
+                                    <del>499.000đ</del>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <!-- home-size-advisor -->
+                <section class="homeSizeAdvisor">
+                    <div class="homeSizeAdvisor-grid">
+                        <div class="homeSizeAdvisor-left">
+                            <h4>Danh mục sản phẩm quan tâm</h4>
+                            <div class="homeSizeAdvior-cegetory">
+                                <div class="cetegory-item">
+                                    <div class="cetegory-icon">
+                                        <img src="images/shirt.png" alt="">
+                                    </div>
+                                    <div class="cetegory-title">
+                                        Áo Nữ
+                                    </div>
+                                </div>
+                                <div class="cetegory-item">
+                                    <div class="cetegory-icon">
+                                        <img src="images/dress.png" alt="">
+                                    </div>
+                                    <div class="cetegory-title">
+                                        Váy Nữ
+                                    </div>
+                                </div>
+                                <div class="cetegory-item">
+                                    <div class="cetegory-icon">
+                                        <img src="images/trousers.png" alt="">
+                                    </div>
+                                    <div class="cetegory-title">
+                                        Quần jean
+                                    </div>
+                                </div>
+                                <div class="cetegory-item">
+                                    <div class="cetegory-icon">
+                                        <img src="images/t-shirt1.png" alt="">
+                                    </div>
+                                    <div class="cetegory-title">
+                                        Áo Thun
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="homeSizeAdvior-range">
+                                <div class="homeSizeAdvior-range-height">
+                                    <div class="input-range">
+                                        <div class="inputRange-head">
+                                            <label>Chiều cao</label>
+                                            <label>1m50</Label>
+                                        </div>
+                                        <input class="inputRange-input" type="range" min="150" max="170" value="150">
+                                    </div>
+                                </div>
+                                <!-- weight -->
+                                <div class="homeSizeAdvior-range-weight">
+                                    <div class="input-range">
+                                        <div class="inputRange-head">
+                                            <label>Cân Nặng</label>
+                                            <label>38kg</Label>
+                                        </div>
+                                        <input class="inputRang-input" type="range" min="150" max="170" value="150">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="homeSizeAdvior-sizeRecommend">
+                                <div class="size">
+                                    <span>XS</span>
+                                </div>
+                                <div class="size">
+                                    <span>S</span>
+                                </div>
+                                <div class="size">
+                                    <span>M</span>
+                                </div>
+                                <div class="size">
+                                    <span>L</span>
+                                </div>
+                                <div class="size">
+                                    <span>XL</span>
+                                </div>
+                            </div>
                             <div class="mt-button">
                                 <a href="">
                                     <button type="button" class="buttonIcon">
@@ -170,201 +353,22 @@
                                             <img src="images/iconn1.png" alt="">
                                         </div>
                                         <div class="buttonIcon-text">
-                                            <p>XEM NGAY BỘ SƯU TẬP</p>
+                                            <p>Tìm Kiếm Sản Phẩm</p>
                                         </div>
                                     </button>
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!-- list-product -->
-            <section class="home-list-product">
-
-                <ul class="list-product">
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product-item">
-                            <img src="images/hinh1.jpg" alt="" class="product-img">
-                            <a href="" class="product-name">Áo Sát Nách Sọc Ngang</a>
-                            <div class="price">
-                                <span>699.000đ</span>
-                                <del>499.000đ</del>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <!-- home-size-advisor -->
-            <section class="homeSizeAdvisor">
-                <div class="homeSizeAdvisor-grid">
-                    <div class="homeSizeAdvisor-left">
-                        <h4>Danh mục sản phẩm quan tâm</h4>
-                        <div class="homeSizeAdvior-cegetory">
-                            <div class="cetegory-item">
-                                <div class="cetegory-icon">
-                                    <img src="images/shirt.png" alt="">
-                                </div>
-                                <div class="cetegory-title">
-                                    Áo Nữ
-                                </div>
-                            </div>
-                            <div class="cetegory-item">
-                                <div class="cetegory-icon">
-                                    <img src="images/dress.png" alt="">
-                                </div>
-                                <div class="cetegory-title">
-                                    Váy Nữ
-                                </div>
-                            </div>
-                            <div class="cetegory-item">
-                                <div class="cetegory-icon">
-                                    <img src="images/trousers.png" alt="">
-                                </div>
-                                <div class="cetegory-title">
-                                    Quần jean
-                                </div>
-                            </div>
-                            <div class="cetegory-item">
-                                <div class="cetegory-icon">
-                                    <img src="images/t-shirt1.png" alt="">
-                                </div>
-                                <div class="cetegory-title">
-                                    Áo Thun
-                                </div>
-                            </div>
-                        </div>
                         <!--  -->
-                        <div class="homeSizeAdvior-range">
-                            <div class="homeSizeAdvior-range-height">
-                                <div class="input-range">
-                                    <div class="inputRange-head">
-                                        <label>Chiều cao</label>
-                                        <label>1m50</Label>
-                                    </div>
-                                    <input class="inputRange-input" type="range" min="150" max="170" value="150">
-                                </div>
-                            </div>
-                            <!-- weight -->
-                            <div class="homeSizeAdvior-range-weight">
-                                <div class="input-range">
-                                    <div class="inputRange-head">
-                                        <label>Cân Nặng</label>
-                                        <label>38kg</Label>
-                                    </div>
-                                    <input class="inputRang-input" type="range" min="150" max="170" value="150">
-                                </div>
-                            </div>
-                        </div>
-                        <!--  -->
-                        <div class="homeSizeAdvior-sizeRecommend">
-                            <div class="size">
-                                <span>XS</span>
-                            </div>
-                            <div class="size">
-                                <span>S</span>
-                            </div>
-                            <div class="size">
-                                <span>M</span>
-                            </div>
-                            <div class="size">
-                                <span>L</span>
-                            </div>
-                            <div class="size">
-                                <span>XL</span>
-                            </div>
-                        </div>
-                        <div class="mt-button">
-                            <a href="">
-                                <button type="button" class="buttonIcon">
-                                    <div class="a-icon">
-                                        <img src="images/iconn1.png" alt="">
-                                    </div>
-                                    <div class="buttonIcon-text">
-                                        <p>Tìm Kiếm Sản Phẩm</p>
-                                    </div>
-                                </button>
-                            </a>
+                        <div class="home-size-advisor-right">
+                            <img src="images/size.png" alt="">
                         </div>
                     </div>
-                    <!--  -->
-                    <div class="home-size-advisor-right">
-                        <img src="images/size.png" alt="">
-                    </div>
-                </div>
-            </section>
+                </section>
+            <main>
         </main>
         <!-- end Main -->
+        
         <footer id="footer">
             <div class="container-">
                 <div class="row">
